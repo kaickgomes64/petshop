@@ -92,8 +92,27 @@ O roteiro detalhado de cada aula será apresentado em sala.
 ## Para ir além (opcional)
 
 Depois que você dominar o CRUD básico, alguns próximos passos legais para
+
 explorar por conta própria:
 
 - Trocar o SQLite por um banco de dados "de servidor" (Postgres/MySQL) — o
   resto do código (rotas, front-end) muda muito pouco.
 - Adicionar autenticação (login) para proteger o cadastro.
+
+## Respostas das perguntas de Estudo
+
+1 - É o que organiza a relação entre o front e o back, acessado por URLs combinado com o HTTPS. Get - vai criar clientes, Post - Ele retorna algo para ler, Put - Atualiza, edita, Delete - vai excluir.
+
+2 - O LocalStorage vai salvar no navegador da pessoa que esta utilizando, possibilitando todo mundo usar, enquanto o SQLite vai salvar em um arquivo separado, bom para aprendizado.
+
+3 - Ele vai criar chave primária automaticamente.
+
+4 - NOT NULL significa que não pode ter valores nulos, então raça e cor não possuem essa restrição porque não é obrigado.
+
+5 - SELECT *. DELETE.
+
+6 - É usado como uma proteção para evitar o ataque SQL Injection.
+
+7 - Irá aparecer o banco de dados com os clientes cadastrados. Porque fica registrado lá dentro.
+
+Francisca, Matheus Martinelli e Kaick.
